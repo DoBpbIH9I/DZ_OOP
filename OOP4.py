@@ -1,7 +1,4 @@
 # Создайте по 2 экземпляра каждого класса, вызовите все созданные методы, а также реализуйте две функции:
-# from OOP3 import student
-
-
 
 # для подсчета средней оценки за домашние задания по всем студентам в рамках конкретного курса
 # (в качестве аргументов принимаем список студентов и название курса);
@@ -126,9 +123,7 @@ reviewer1.rate_hw(student1,'Python', 9)
 reviewer2.rate_hw(student1,'Python', 10)
 reviewer1.rate_hw(student2,'Python', 9)
 reviewer2.rate_hw(student2,'Python', 9)
-# print(student1.grades)
-# print(lecturer1.grades)
-# print(student1)
+
 
 print(f'{lecturer1}\n\n{lecturer2}\n')
 print(f'Перечень студентов:\n{student1}\n\n{student2}')
@@ -161,8 +156,6 @@ def lecturer_rating(lecturers, course_name):
             count_all += 1
     average_for_all = sum_all / count_all
     return average_for_all
-
-# Выводим результат подсчета средней оценки по всем студентам для данного курса
 
 # Выводим результат подсчета средней оценки по всем студентам для данного курса
 print(f"Средняя оценка для всех студентов по курсу {'Python'}: {student_rating(students, 'Python')}")
